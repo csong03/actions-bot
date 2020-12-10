@@ -3,6 +3,6 @@
 set -eux
 
 # 修改为你的 CSDN_ID
-CSDN_ID="sculpta"
+CSDN_ID=${{ secrets.MYCSDN_ID }}
 
 python csdn-spider/spider.py $CSDN_ID
