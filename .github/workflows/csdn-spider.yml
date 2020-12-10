@@ -4,8 +4,8 @@ on:
   push:
     branches: 
       - master
-  # schedule:
-  #   - cron: '0 0,8,16 * * *'
+  schedule:
+    - cron: '20/15 * * * *'
 
 jobs:
   csdn-spider:
